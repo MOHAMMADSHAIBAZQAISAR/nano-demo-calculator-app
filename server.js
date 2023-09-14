@@ -41,7 +41,7 @@ const baseRouter = express.Router();
 
 // Endpoint to check if the service is available
 baseRouter.get("/greeting", (req, res) => {
-  return res.status(200).json({ message: "Hello World!" });
+  return res.status(200).json({ message: "hello world!" });
 });
 
 // Endpoint to add two numbers
